@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="QuondamFX.jnlp">
+    <information>
+        <title>QuondamFX</title>
+        <vendor>Rizqdwan</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="9.0.4+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="QuondamFX.jar" size="1691956" download="eager"/>
+        <jar href="lib\jfoenix-8.0.8.jar" size="2708772" download="eager"/>
+        <jar href="lib\xstream-1.4.10.jar" size="589803" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="Main.Main" name="Main"/>
+</jnlp>
+
