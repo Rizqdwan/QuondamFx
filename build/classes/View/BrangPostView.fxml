@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="162.0" prefWidth="237.0" style="-fx-background-radius: 10; -fx-background-color: #ffff; -fx-border-radius: 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.BrangPostViewController">
+   <children>
+      <ImageView fx:id="imgBarang" fitHeight="100.0" fitWidth="223.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Img/Iphone12.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="namaBarang" layoutX="14.0" layoutY="112.0" text="Iphone 11Pro Max" />
+      <Label fx:id="hargaBarang" layoutX="14.0" layoutY="130.0" text="Rp 10.000.000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <DropShadow>
+         <color>
+            <Color opacity="0.20779220759868622" />
+         </color>
+      </DropShadow>
+   </effect>
+</AnchorPane>
